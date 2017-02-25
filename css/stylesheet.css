@@ -1,0 +1,78 @@
+/*---------------------------
+Header and footer background colors
+----------------------------------*/
+
+.foot-container , .header-container{
+  background-color: #7d7d83;
+}
+
+/*--------------------------------
+styling the header area
+-----------------------------------*/
+
+ .header-container{
+  display: block;
+  overflow: hidden;
+}
+.header-container img{
+float: left;
+  }
+
+  .header-container ul{
+    float: right;
+    list-style: none;
+    border: 2px green;
+    margin-top: 70px;
+  }
+
+  .header-container a{
+    text-decoration: none;
+    color: #FFF;
+  }
+  .header-container li{
+    display: inline;
+    padding: 5px;
+  }
+
+
+.empty{
+  clear: both;
+  background-color: #7d7d83;
+}
+/*---------------------------------
+styling the headshot
+------------------------------------*/
+.info-img img{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 100px #840405;
+  margin-right: 20px
+}
+.info-content{
+  text-align: center;
+}
+.info-content div{
+  display: inline-block;
+}
+.info-name{
+  text-align: center;
+}
+.info-text{
+  vertical-align: top;
+}
+
+/*h2{
+  color: red;
+}*/
+/*----------------------------------------
+Footer styling
+-------------------------------------------*/
+
+.foot-container{
+  text-align: center;
+}
+.foot-container div{
+  display: inline-block;
+  margin: 0px 10px;
+}
