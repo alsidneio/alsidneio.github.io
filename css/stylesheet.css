@@ -2,9 +2,6 @@
 Header and footer background colors
 ----------------------------------*/
 
-.foot-container , .header-container{
-  background-color: #7d7d83;
-}
 
 /*--------------------------------
 styling the header area
@@ -13,10 +10,8 @@ styling the header area
  .header-container{
   display: block;
   overflow: hidden;
+  background-color: #840405;
 }
-.header-container img{
-float: left;
-  }
 
   .header-container ul{
     float: right;
@@ -65,6 +60,10 @@ styling the headshot
 /*h2{
   color: red;
 }*/
+
+body{
+  border:  2px solid green;
+}
 /*----------------------------------------
 Footer styling
 -------------------------------------------*/
