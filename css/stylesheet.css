@@ -1,4 +1,40 @@
 
+.header-container{
+  background-color: #FFF;
+}
 .body-container{
   background-color: #840405;
+}
+table img{
+  height:40px;
+  width: 45px;
+}
+
+tr{
+  color: #FFF;
+
+}
+td{
+  border:2px solid #FFF;
+    margin-left: 5px;
+}
+h3{
+  color:#FFF;
+}
+.headshot img{
+  border-radius: 50%;
+  height:100px;
+  width: 100px;
+}
+.contact, .info, .credentials{
+  display:inline-block;
+  width:30%;
+  text-align: center;
+}
+.info{
+  background-color: #FFF;
+}
+.forklift{
+  height: 25px;
+  width: 100px;
 }
