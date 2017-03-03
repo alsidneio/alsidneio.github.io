@@ -21,6 +21,12 @@ tr{
 h3{
   color:#FFF;
 }
+.info{
+  border: 2px solid #000;
+}
+.nasa i{
+  display: block;
+}
 
 .headshot img{
   border-radius: 50%;
@@ -50,6 +56,9 @@ h3{
 .experience{
   display: block;
 
+}
+.experience div{
+  display: inline-block;
 }
 .nasa img{
   height: 60px;
