@@ -3,7 +3,7 @@
   background-color: #FFF;
 }
 .body-container{
-  background-color: #840405;
+border: 2px solid green;
 }
 table img{
   height:40px;
@@ -21,20 +21,38 @@ tr{
 h3{
   color:#FFF;
 }
+
 .headshot img{
   border-radius: 50%;
   height:100px;
   width: 100px;
+}
+.mid-section{
+  border-bottom: 2px solid #840405;
 }
 .contact, .info, .credentials{
   display:inline-block;
   width:30%;
   text-align: center;
 }
+
+.contact, .credentials{
+  background-color: #840405;
+}
+
 .info{
   background-color: #FFF;
 }
 .forklift{
   height: 25px;
   width: 100px;
+}
+.experience{
+  display: block;
+
+}
+.nasa img{
+  height: 60px;
+  width:82px;
+  margin: 7px 7px 0 0;
 }
