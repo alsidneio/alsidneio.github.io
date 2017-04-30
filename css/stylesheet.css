@@ -26,11 +26,24 @@ ul{
   display: flex;
 }
 #about div{
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
   width: 50%;
+  padding: 0 20px;
 }
-
-.education img{
-  width: 300px;
-  height:50px;
+.education{
+  padding: 0 10px;
+}
+.education p{
+  padding: 0 70px;
+  line-height: 7px;
+}
+.education dd{
+  line-height: 7px;
+  padding-bottom: 12px;
+}
+.education dt{
+  float: left;
+  clear: left;
+  width:95px;
+ line-height: 7px;
 }
