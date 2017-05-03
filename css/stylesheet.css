@@ -54,19 +54,21 @@ ul{
  line-height: 7px;
 }
 #experience{
-  width:100%;
+  /*width:100%;*/
+  border: 1px solid blue;
 }
 .job{
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   display: flex;
   align-items: center;
+  /*width:49%;*/
 }
 h4{
   text-align: left;
 }
 
 .job div{
-  border: 1px solid blue;
+  /*border: 1px solid blue;*/
   margin-left: 10px;
   padding-left: 10px;
 }
@@ -79,3 +81,20 @@ h4{
   padding-top: 7px;
   margin-left: 10px;
 }
+.mid{
+  display: inline-block;
+  width:49%;
+}
+.progress{
+  border: 3px pink solid;
+  border-radius: .250em;
+  color: white;
+  background-color: green;
+  margin-top: 8px;
+  padding-left:7px;
+  line-height: .01em
+}
+  #html{width:100%;}
+  #js{width:45%;}
+  #css{width:83%;}
+  #illustrator{width:35%;}
