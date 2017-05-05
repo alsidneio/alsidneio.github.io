@@ -1,67 +1,257 @@
-
-.header-container{
-  background-color: #FFF;
-}
-.body-container{
-border: 2px solid green;
-}
-table img{
-  height:40px;
-  width: 45px;
-}
-
-tr{
-  color: #FFF;
+*{
+  box-sizing: border-box;
+  font-family: 'Slabo 27px', serif;
 
 }
-/*td{
-  border:2px solid #FFF;
-    margin-left: 5px;
-}*/
-h3{
-  color:#FFF;
-}
-.info{
-  border: 2px solid #000;
-}
-.nasa i{
-  display: block;
-}
 
-.headshot img{
-  border-radius: 50%;
-  height:100px;
-  width: 100px;
-}
-.mid-section{
-  border-bottom: 2px solid #840405;
-}
-.contact, .info, .credentials{
-  display:inline-block;
-  width:30%;
+
+
+h4{
   text-align: center;
 }
 
-.contact, .credentials{
-  background-color: #840405;
+ul{
+  list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+.nav-bar{
+    width: 100%;
+}
+ .nav-bar ul{
+  display: flex;
+  justify-content: space-around;
 }
 
-.info{
-  background-color: #FFF;
+.nav-button{
+  align-self:center;
 }
-.forklift{
-  height: 25px;
-  width: 100px;
-}
-.experience{
+#headshot img{
+  width:100px;
+  height:100px;
+  border-radius: 50%;
   display: block;
-
+  margin:auto;
 }
-.experience div{
+#headshot p, #headshot i{
+  text-align: center;
+}
+
+#about{
+  display: flex;
+}
+#about div{
+  /*border: 2px solid blue;*/
+  width: 49%;
+  padding: 0 20px;
+}
+div.bio, div.education, div.description, #skills, div.contact{
+  border: 0.188em solid #EDF1F3;
+  border-radius: 0.375em;
+}
+.education{
+  padding: 0 10px;
+}
+.education p{
+  padding: 0 70px;
+  line-height: 10px;
+}
+.education dd{
+  line-height: 7px;
+  padding-bottom: 12px;
+}
+.education dt{
+  float: left;
+  clear: left;
+  width:95px;
+ line-height: 7px;
+}
+#experience{
+  /*width:100%;*/
+  /*border: 1px solid blue;*/
+}
+.job{
+  /*border: 1px solid red;*/
+  display: flex;
+  align-items: center;
+  /*width:49%;*/
+}
+
+
+.job div{
+  /*border: 1px solid blue;*/
+  margin-left: 10px;
+  padding:0 10px;
+  width:100%;
+}
+.job div:first-child{
+  width: 4.250em;
+  height:4.250em;
+  border: 0.063em solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+.description p{
+  margin: 5px 0;
+  color: #345;
+}
+.contact {
+width: 100%;
+}
+
+.contact div{
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mid{
+  /*border:1px solid pink;*/
+  display: inline-block;
+  width:49%;
+  vertical-align: top;
+}
+
+#skills div{
+  vertical-align: top;
+}
+
+#skills h4{
+  margin-bottom: 0;
+}
+.progress{
+  width:100%;
+  border-radius: .250em;
+  background-color: gray;
+  /*padding-left:7px;*/
+  height: 15px;
+  margin-bottom: 8px;
+  }
+
+.percent{
+  background-color: rgb(13, 132, 76,50%);
+  height:15px;
+  border-radius: .250em;
+  }
+
+  #html{
+    width:100%;
+  }
+  #js{width:45%;}
+  #css{width:83%;}
+  #illustrator{width:35%;}
+
+.social-bar{
   display: inline-block;
 }
-.nasa img{
-  height: 60px;
-  width:82px;
-  margin: 7px 7px 0 0;
+
+.social-bar div{
+  display: block;
+}
+
+div.icon{
+  width:30%;
+text-align: center;
+  display: inline-block;
+}
+
+  .social-bar img{
+    width: 50px;
+    height: 40px;
+    margin:5px;
+  }
+
+  h3{
+    text-align: center;
+  }
+  h4{
+    text-align: left;
+    color: #345;
+  }
+  h5{
+    color:#C9D5D6;
+  }
+
+  /*-----------------------------------
+        Form Styling
+  ------------------------------------*/
+
+
+.form-style{
+  border: 2px solid blue;
+    font-family: 'Open Sans Condensed', arial, sans;
+    width: 500px;
+    padding: 30px;
+    background: #FFFFFF;
+    /*margin: 50px auto;*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+    border:
+
+}
+.form-style h2{
+    background: #4D4D4D;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #797979;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+}
+.form-style input[type="text"],
+.form-style input[type="date"],
+.form-style input[type="datetime"],
+.form-style input[type="email"],
+.form-style input[type="number"],
+.form-style input[type="search"],
+.form-style input[type="time"],
+.form-style input[type="url"],
+.form-style input[type="password"],
+.form-style textarea,
+.form-style select
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+.form-style textarea{
+    resize:none;
+    overflow: hidden;
+}
+.form-style input[type="button"],
+.form-style input[type="submit"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    box-shadow: inset 0px 1px 0px 0px #45D6D6;
+    background-color: #2CBBBB;
+    border: 1px solid #27A0A0;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.form-style input[type="button"]:hover,
+.form-style input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+    background-color:#34CACA;
 }
