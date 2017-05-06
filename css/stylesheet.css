@@ -31,6 +31,7 @@ a{
   border-radius: 50%;
   display: block;
   margin:auto;
+  border: 0.375em solid rgb(237,241,243);
 }
 #headshot p, #headshot i{
   text-align: center;
@@ -65,9 +66,12 @@ div.bio, div.education, div.description, #skills, div.contact{
 .education dd{
   line-height: 7px;
   padding-bottom: 12px;
-  color: #C9D5D6;
+  color: #345;
 }
-
+i{
+  background-color: rgb(250,244,106);
+  border-radius: 0.125em;
+}
 strong{
     color:#345;
 }
@@ -87,6 +91,7 @@ strong{
   display:block;
   width:49%;
   margin-top: 30px;
+  background-color: #FFF;
 }
 
 .job div{
@@ -109,6 +114,7 @@ strong{
   margin: 5px 0;
   color: #345;
 }
+
 .contact {
 width: 100%;
 }
