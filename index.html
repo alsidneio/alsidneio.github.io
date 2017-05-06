@@ -10,7 +10,7 @@
     <script src="js/app.js"></script>
   </head>
   <body>
-    <div class="nav-bar">
+    <!-- <div class="nav-bar">
       <nav>
         <ul>
           <li class="nav-button"><a href="#about">About</a></li>
@@ -19,13 +19,13 @@
           <li class="nav-button"><a href="#education">Education</a></li>
         </ul>
       </nav>
-    </div>
+    </div> -->
     <div id="headshot">
       <img src="img/headshot.png"/></li>
       <p>Alsidneio F. Bell<p>
         <i>Freelance Front-End Web Developer</i>
-    </div>
-    <div id="about">
+    </div><!--
+    --><div id="about">
 
       <div class="bio">
           <h3>Bio</h3>
@@ -68,8 +68,9 @@
            </dl>
       </div>
     </div>
-    <div id="experience" class="mid">
-          <h3>Experience</h3>
+    <div><!--
+    --><h3>Experience</h3>
+    <div id="experience">
       <div class="job">
         <div class="year"><p>Present</p></div>
         <div class="description">
@@ -140,10 +141,11 @@
         </div>
       </div>
     </div>
-    <div class="mid">
-      <h3>Skills</h3>
+  </div><!--
+  --><div class="mid">
+    <div class="box">
+     <h3>Skills</h3>
     <div id="skills" >
-
       <span>HTML/HTML5</span>
        <div class="progress">
          <div id="html" class="percent"> </div>
@@ -161,34 +163,23 @@
           <div class="percent" id="illustrator"> </div>
        </div>
     </div>
-
-
-    <div>
+</div><!--
+--><div class="box">
       <h3>Contact</h3>
       <div class="contact">
         <div class="social-bar">
           <div class="icon">
-            <img src="img/linkedin.png"/>
+            <a href="https://www.linkedin.com/in/alsidneio-bell-6b62821b/"><img src="img/linkedin.png"/></a>
           </div>
           <div class="icon">
-            <img src="img/GitHub_Logo.png"/>
+            <a href="https://github.com/alsidneio"><img src="img/GitHub_Logo.png"/></a>
           </div>
           <div class="icon">
             <img src="img/insta.png"/>
           </div>
         </div>
-    <div class="social-bar">
-      <div class="form-style">
-  <h2>CONTACT ME</h2>
-  <form>
-    <input type="text" name="field1" placeholder="Full Name" />
-    <input type="email" name="field2" placeholder="Email" />
-    <textarea placeholder="Message" onkeyup="adjust_textarea(this)"></textarea>
-    <input type="button" value="Send Message" />
-  </form>
-</div>
-    </div>
   </div>
+</div>
 </div>
 
   </body>
