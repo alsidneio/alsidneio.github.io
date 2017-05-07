@@ -40,23 +40,28 @@ a{
 #about{
   display: flex;
 }
-#about div{
+#about div:first-child{
   /*border: 2px solid blue;*/
   width: 49%;
   padding: 0 20px;
 }
+
+.green{
+  border-radius: 0.375em;
+  text-align: center;
+  padding-top: 7px;
+  background-color: rgb(91,207,128);
+  color:#FFF;
+  }
+
+
 div.bio, div.education, div.description, #skills, div.contact{
   border: 0.188em solid #EDF1F3;
   border-radius: 0.375em;
 }
 
-.bio{
-  margin: 0 15px 0 30px;
-}
-
 .education{
   padding: 0 10px;
-  margin: 0 30px 0 15px;
 }
 .education p{
   padding: 0 70px;
