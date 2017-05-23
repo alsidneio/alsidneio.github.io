@@ -59,7 +59,6 @@
 
 }
 
-
 ul{
   list-style-type:none;
 }
@@ -181,6 +180,9 @@ strong{
   margin: 1px 0;
   color: #FFF;
 }
+.year:hover{
+  cursor: pointer;
+}
 .description p{
   margin: 5px 0;
   color: #345;
@@ -225,7 +227,7 @@ width: 100%;
   }
 
 .percent{
-  background-color: rgb(13, 132, 76,50%);
+  background-color: rgb(91,207,128);
   height:15px;
   border-radius: .250em;
   }
@@ -236,7 +238,7 @@ width: 100%;
   #js{width:45%;}
   #css{width:83%;}
   #illustrator{width:35%;}
-
+.soft{width:100%}
 
 
 .social-bar div{
