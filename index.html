@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Alsidneio F. Bell, I</title>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-UQiGfs9ICog+LwheBSRCt1o5cbyKIHbwjWscjemyBMT9YCUMZffs6UqUTd0hObXD" crossorigin="anonymous">
     <link href="css/stylesheet.css" type="text/css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
@@ -22,12 +23,18 @@
     <div id="headshot">
       <img src="img/headshot.png"/></li>
       <p>Alsidneio F. Bell<p>
-        <i>Freelance Front-End Web Developer</i>
+        <nav class="social flex">
+
+            <p id="LI" class="col-3-1"><a href="https://www.linkedin.com/in/alsidneio-bell-6b62821b/"><img src="img/LI_White.png" alt="linkedIn" /></a></p><!--
+            --><p id="GH" class="col-3-1"><a href="https://github.com/alsidneio"><img src="img/GH_White.png" /> </a></p>
+            <p id="IG" class="col-3-1"><a href="https://www.instagram.com/forgot3n_king/">Instagram</a></sp>
+
+        </nav>
     </div><!--
     --><div class="sec1">
         <h3>About</h3>
-    <div id="about">
-       <div>
+    <div id="about" class="flex">
+       <div class="me">
         <h3 class="green">Bio</h3>
       <div class="bio">
         <p>
@@ -78,9 +85,9 @@
     </div>
     </div>
   </div>
-    <div class="sec2">
+    <div class="sec2 ">
     <h3>Experience</h3>
-    <div id="experience">
+    <div id="experience" class="flex">
       <div class="job">
         <div class="year" id="present"><p>Present</p></div>
         <div class="description" id="boeing">
@@ -152,7 +159,8 @@
       </div>
     </div>
   </div>
-  <div class="mid">
+  <hr />
+  <div class="mid flex">
     <div class="box">
      <h3>Technical-Skills</h3>
      <div id="skills" >
@@ -196,21 +204,45 @@
       </div>
     </div>
 </div>
-<div class="">
+<div class="contact">
       <h3>Contact</h3>
-      <div class="contact">
-        <div class="social-bar">
-          <div class="icon">
-            <a href="https://www.linkedin.com/in/alsidneio-bell-6b62821b/"><img src="img/linkedin.png"/></a>
-          </div>
-          <div class="icon">
-            <a href="https://github.com/alsidneio"><img src="img/GitHub_Logo.png"/></a>
-          </div>
-          <div class="icon">
-            <a href="https://www.instagram.com/forgot3n_king/?hl=en"><img src="img/insta.png"/></a>
-          </div>
-        </div>
-          <span>Email: </span><a href="mailto:ellebelleweb@gmail.com">ElleBelleWeb@gmail.com</a>
+      <div class="contact flex">
+        <form id="gform" method="POST" class="pure-form pure-form-stacked"
+  action="https://script.google.com/macros/s/AKfycbwMxYDrufp73bKdU8gMvxFDdHRuzcR4IKQUB33B7GqwyfyZS04/exec">
+    <!-- change the form action to your script url -->
+
+    <fieldset class="pure-form">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="Full Name" />
+      <label for="email">Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="Email"/>
+      <span id="email-invalid" style="visibility:hidden">
+        Must be a valid email address</span>
+    </fieldset>
+
+    <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" class="" name="message" rows="10"
+      placeholder="How may I help you?"></textarea>
+    </fieldset>
+
+
+
+    <button class="button-success pure-button button-xlarge">
+      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+
+  </form>
+
+  <!-- Customise the Thankyou Message People See when they submit the form: -->
+  <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting us!
+      We will get back to you soon!</h2>
+  </div>
+
+  <!-- Submit the Form to Google Using "AJAX" -->
+  <script data-cfasync="false" type="text/javascript"
+  src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
       </div>
 </div>
 
