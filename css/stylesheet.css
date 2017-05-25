@@ -128,26 +128,26 @@ nav.flex p{
 }
 
 #GH a img{
-  height: 40px;
+  max-height: 100%;
   width: auto;
   border: none;
   border-radius: 0px;
-  padding-top: 5px;
+  /*padding-top: 5px;*/
 }
 #LI a img{
-  height: 40px;
-  width: auto;
+max-height: 100%;
+width: auto;
   border: none;
   border-radius: 0px;
-  padding-top: 5px;
+  /*padding-top: 5px;*/
 }
 
 #IG a img{
-  height: 50px;
+  max-height: 100%;
   width: auto;
   border: none;
   border-radius: 0px;
-  padding-top: 5px;
+  /*padding-top: 7px;*/
 }
 
 .sec1{
@@ -300,11 +300,11 @@ h5{
   }
 
 /*-----------------------------------------------
-Mobile adjustemnt
+Responsive Adjustemnt
 ----------------------------------------------------*/
 
-/*------Iphone ------------*/
-@media only screen and (max-device-width: 786px) {
+/*------Phone's ------------*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
      *{
        display:block;
        margin:
@@ -312,10 +312,21 @@ Mobile adjustemnt
      .box,.about,.edu,.job{
        width:100%;
      }
-     .flex{
-       flex-wrap: wrap;
-     }
      .me{width: 100%; !important}
 
+      .sec1{flex-wrap: wrap;}
+}
+
+/*-------------------------Tablets--------------------------------------*/
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  *{
+    display:block;
+    margin:
+  }
+  .box,.about,.edu,.job{
+    width:100%;
+  }
+  .me{width: 100%; !important}
 
 }

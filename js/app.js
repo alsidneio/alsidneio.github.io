@@ -26,4 +26,8 @@ $("#2014").click(function(){
 
 $(" .year p").css("font-weight", "Bold");
 
+if ($(window).width() < 481 ) {
+    $('#about').removeClass('col-2-1');
+    $('#edu').removeClass('col-2-1');
+    }
 });
