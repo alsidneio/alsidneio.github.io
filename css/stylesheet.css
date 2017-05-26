@@ -166,7 +166,7 @@ width: auto;
   }
 
 
-div.bio, div.education, div.description, #skills, div.contact{
+div.bio, div.education, div.description, #skills, div.form{
   border: 0.188em solid #EDF1F3;
   border-radius: 0.375em;
 }
